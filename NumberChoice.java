@@ -13,7 +13,7 @@ public class NumberChoice {
         secret.setSecret();
 
 
-        int number; // 箱を準備
+        int number; // 箱を準備する
 
         while (true) {
             System.out.print("1から100までの数字を入力してください: ");

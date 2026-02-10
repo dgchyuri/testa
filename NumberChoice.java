@@ -20,7 +20,7 @@ public class NumberChoice {
             String input = sc.nextLine();  // ← まず String で受け取る
 
 
-            /* 数字かどうか判定 */
+            /* 数字かどうか判定する */
             try {
                 number = Integer.parseInt(input);  // ← 数字ならここで int に変換される
             } catch (NumberFormatException e) {
